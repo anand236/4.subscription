@@ -1,0 +1,915 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class='container'>
+        <p class='display-4 mt-3'><b>Subscription </b><span class='text-danger'><b>Packages</b></span>
+            <p>Following subscription packages are available to get start with <b> Shofer Plus</b>. please click on add
+                request button of your choice.</p>
+            <div>
+                <b>Choose your option</b><br>
+                <button class='btn btn-primary' id="transporter"><a href='#trans' class='text-white'>Transporter</a></button>
+                <button class='btn btn-primary' id="customer"><a href='#cust' class='text-white'>Customer</a></button>
+                <button class='btn btn-primary' id="packers"><a href='#pack' class='text-white'>Packers and Movers</a></button>
+                <!-- <input type="radio" class='ml-2 mt-2' name='role'>Transporter
+                <input type="radio" class='ml-2' name='role'>Customer
+                <input type="radio" class='ml-2' name='role'>Packers and movers -->
+            </div>
+            <div   style="margin-top: 2;" id='trans'>
+                <p><b>transporter Packages</b</p> 
+            
+                    
+                    <table class='table table-white table-hover'>
+                        <thead>
+                            <tr class='bg-primary'>
+                                <th>Package Features</th>
+                                <th>TS4</th>
+                                <th>TS5</th>
+                                <th>TS6</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="4" class='table-dark'><b>APPLICATION</b></td>
+                            </tr>
+                            <tr>
+                                <td>Android App</td>
+                                <td><i class="fas fa-times"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" class='table-dark'><b>DIRECTORY</b></td>
+                            </tr>
+                            <tr>
+                                <td>E-VISITING CARD of transport</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>listing in transport directory</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>SMS/Email alert from directory</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" class='table-dark'><b>LOADS</b></td>
+                            </tr>
+                            <tr>
+                                <td>load matching alert</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>search for loads</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>SMS/Email alert for loads</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>view load details on portal</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" class='table-dark'><b>MY SHOFER PLUS (ONLINE TRANSPORT SOFTWARE)</b>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>add load to your note</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>add truck to your note</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>create favourite customer list</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>GPS integrated trucks on map</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>loads and trucks manage software</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>SMS alert from loads</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>SMS alert from trucks/ vehicles</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>view my loads on web profile</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>view my truck on web profile</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" class='table-dark'><b>TENDERS INFORMATION FOR TRANSPORTERS</b></td>
+                            </tr>
+                            <tr>
+                                <td>Tenders alert on mail</td>
+                                <td><i class="fas fa-times"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" class='table-dark'><b>TRUCKS</b></td>
+                            </tr>
+                            <tr>
+                                <td>all india posting</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>manage trucks/vehicle list</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>posting of registered trucks/vehicles</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>posting of unregistered trucks/vehicles</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>SMS alerts for trucks/vehicles</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>view trucks<s/td> <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" class='table-dark'><b>VEHICLE REGISTRATION</b></td>
+                            </tr>
+                            <tr>
+                                <td>register trucks and vehicle</td>
+                                <td><i class="fas fa-times"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" class='table-dark'><b>WEB PAGE FEATURES</b></td>
+                            </tr>
+                            <tr>
+                                <td>inquiry form</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>manage gallery</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>manage profile and services</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>premium membership package(DOMAIN CHARGE EXTRA)</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>theme selection</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>web profile package (DOMAIN CHARGE EXTRA)<s/td> <td><i class="fas fa-check"></i>
+                                </td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" class='table-dark'><b>WEB SERVICES</b></td>
+                            </tr>
+                            <tr>
+                                <td>Email registration</td>
+                                <td><i class="fas fa-times"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>google map integration</td>
+                                <td><i class="fas fa-times"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>Total SMS</td>
+                                <td>1000</td>
+                                <td>2000</td>
+                                <td>3000</td>
+                            </tr>
+                            <tr>
+                                <td>Total view</td>
+                                <td>1000</td>
+                                <td>2000</td>
+                                <td>3000</td>
+                            </tr>
+                            <tr>
+                                <td>Cost price (Yearly)</td>
+                                <td><strike>10000</strike></td>
+                                <td><strike>20000</strike></td>
+                                <td><strike>30000</strike></td>
+                            </tr>
+                            <tr>
+                                <td>Discount (Yearly)</td>
+                                <td>1000</td>
+                                <td>2000</td>
+                                <td>3000</td>
+                            </tr>
+                            <tr>
+                                <td>Offer price (Yearly)</td>
+                                <td>1000</td>
+                                <td>2000</td>
+                                <td>3000</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><button class='btn btn-primary'>add request</button></td>
+                                <td><button class='btn btn-primary'>add request</button></td>
+                                <td><button class='btn btn-primary'>add request</button></td>
+                            </tr>
+                        </tbody>
+                        </table>
+                        <div>
+                            <p>Payment Option</p>
+                            <p>*GST extra @ 18%</p>
+                            <p>**Terms and conditions applicable.</p>
+                            <p>***Bank draft should be sent in favour of shofer, #171..........</p>
+                        </div>
+                        <div>
+                            <p>For online and cash deposit</p>
+                            <p>Account Name:</p>
+                            <p>Bank Name:</p>
+                            <p>Account Number:</p>
+                            <p>Account type:</p>
+                            <p>IFSC code:</p>
+                        </div>        
+            </div>
+
+
+
+
+            <div style="margin-top: 2;" id='cust'>
+                <p><b>customer Packa</b</p> 
+            
+                    
+                    <table class='table table-white table-hover'>
+                        <thead>
+                            <tr class='bg-primary'>
+                                <th>Package Features</th>
+                                <th>TS4</th>
+                                <th>TS5</th>
+                                <th>TS6</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="4" class='table-dark'><b>APPLICATION</b></td>
+                            </tr>
+                            <tr>
+                                <td>Android App</td>
+                                <td><i class="fas fa-times"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" class='table-dark'><b>DIRECTORY</b></td>
+                            </tr>
+                            <tr>
+                                <td>E-VISITING CARD of transport</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>listing in transport directory</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>SMS/Email alert from directory</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" class='table-dark'><b>LOADS</b></td>
+                            </tr>
+                            <tr>
+                                <td>load matching alert</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>search for loads</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>SMS/Email alert for loads</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>view load details on portal</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" class='table-dark'><b>MY SHOFER PLUS (ONLINE TRANSPORT SOFTWARE)</b>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>add load to your note</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>add truck to your note</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>create favourite customer list</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>GPS integrated trucks on map</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>loads and trucks manage software</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>SMS alert from loads</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>SMS alert from trucks/ vehicles</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>view my loads on web profile</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>view my truck on web profile</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" class='table-dark'><b>TENDERS INFORMATION FOR TRANSPORTERS</b></td>
+                            </tr>
+                            <tr>
+                                <td>Tenders alert on mail</td>
+                                <td><i class="fas fa-times"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" class='table-dark'><b>TRUCKS</b></td>
+                            </tr>
+                            <tr>
+                                <td>all india posting</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>manage trucks/vehicle list</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>posting of registered trucks/vehicles</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>posting of unregistered trucks/vehicles</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>SMS alerts for trucks/vehicles</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>view trucks<s/td> <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" class='table-dark'><b>VEHICLE REGISTRATION</b></td>
+                            </tr>
+                            <tr>
+                                <td>register trucks and vehicle</td>
+                                <td><i class="fas fa-times"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" class='table-dark'><b>WEB PAGE FEATURES</b></td>
+                            </tr>
+                            <tr>
+                                <td>inquiry form</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>manage gallery</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>manage profile and services</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>premium membership package(DOMAIN CHARGE EXTRA)</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>theme selection</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>web profile package (DOMAIN CHARGE EXTRA)<s/td> <td><i class="fas fa-check"></i>
+                                </td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" class='table-dark'><b>WEB SERVICES</b></td>
+                            </tr>
+                            <tr>
+                                <td>Email registration</td>
+                                <td><i class="fas fa-times"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>google map integration</td>
+                                <td><i class="fas fa-times"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>Total SMS</td>
+                                <td>1000</td>
+                                <td>2000</td>
+                                <td>3000</td>
+                            </tr>
+                            <tr>
+                                <td>Total view</td>
+                                <td>1000</td>
+                                <td>2000</td>
+                                <td>3000</td>
+                            </tr>
+                            <tr>
+                                <td>Cost price (Yearly)</td>
+                                <td><strike>10000</strike></td>
+                                <td><strike>20000</strike></td>
+                                <td><strike>30000</strike></td>
+                            </tr>
+                            <tr>
+                                <td>Discount (Yearly)</td>
+                                <td>1000</td>
+                                <td>2000</td>
+                                <td>3000</td>
+                            </tr>
+                            <tr>
+                                <td>Offer price (Yearly)</td>
+                                <td>1000</td>
+                                <td>2000</td>
+                                <td>3000</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><button class='btn btn-primary'>add request</button></td>
+                                <td><button class='btn btn-primary'>add request</button></td>
+                                <td><button class='btn btn-primary'>add request</button></td>
+                            </tr>
+                        </tbody>
+                        </table>
+                        <div>
+                            <p>Payment Option</p>
+                            <p>*GST extra @ 18%</p>
+                            <p>**Terms and conditions applicable.</p>
+                            <p>***Bank draft should be sent in favour of shofer, #171..........</p>
+                        </div>
+                        <div>
+                            <p>For online and cash deposit</p>
+                            <p>Account Name:</p>
+                            <p>Bank Name:</p>
+                            <p>Account Number:</p>
+                            <p>Account type:</p>
+                            <p>IFSC code:</p>
+                        </div>        
+            </div>
+
+
+
+            <div style="margin-top: 2;" id='pack'>
+                <p><b>packer Packages</b</p> 
+            
+                    
+                    <table class='table table-white table-hover'>
+                        <thead>
+                            <tr class='bg-primary'>
+                                <th>Package Features</th>
+                                <th>TS4</th>
+                                <th>TS5</th>
+                                <th>TS6</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="4" class='table-dark'><b>APPLICATION</b></td>
+                            </tr>
+                            <tr>
+                                <td>A App</td>
+                                <td><i class="fas fa-times"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" class='table-dark'><b>DIRECTORY</b></td>
+                            </tr>
+                            <tr>
+                                <td>E-VISITING CARD of transport</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>listing in transport directory</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>SMS/Email alert from directory</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" class='table-dark'><b>LOADS</b></td>
+                            </tr>
+                            <tr>
+                                <td>load matching alert</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>search for loads</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>SMS/Email alert for loads</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>view load details on portal</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" class='table-dark'><b>MY SHOFER PLUS (ONLINE TRANSPORT SOFTWARE)</b>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>add load to your note</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>add truck to your note</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>create favourite customer list</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>GPS integrated trucks on map</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>loads and trucks manage software</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>SMS alert from loads</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>SMS alert from trucks/ vehicles</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>view my loads on web profile</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>view my truck on web profile</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" class='table-dark'><b>TENDERS INFORMATION FOR TRANSPORTERS</b></td>
+                            </tr>
+                            <tr>
+                                <td>Tenders alert on mail</td>
+                                <td><i class="fas fa-times"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" class='table-dark'><b>TRUCKS</b></td>
+                            </tr>
+                            <tr>
+                                <td>all india posting</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>manage trucks/vehicle list</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>posting of registered trucks/vehicles</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>posting of unregistered trucks/vehicles</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>SMS alerts for trucks/vehicles</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>view trucks<s/td> <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" class='table-dark'><b>VEHICLE REGISTRATION</b></td>
+                            </tr>
+                            <tr>
+                                <td>register trucks and vehicle</td>
+                                <td><i class="fas fa-times"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" class='table-dark'><b>WEB PAGE FEATURES</b></td>
+                            </tr>
+                            <tr>
+                                <td>inquiry form</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>manage gallery</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>manage profile and services</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>premium membership package(DOMAIN CHARGE EXTRA)</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>theme selection</td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>web profile package (DOMAIN CHARGE EXTRA)<s/td> <td><i class="fas fa-check"></i>
+                                </td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td colspan="4" class='table-dark'><b>WEB SERVICES</b></td>
+                            </tr>
+                            <tr>
+                                <td>Email registration</td>
+                                <td><i class="fas fa-times"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>google map integration</td>
+                                <td><i class="fas fa-times"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                                <td><i class="fas fa-check"></i></td>
+                            </tr>
+                            <tr>
+                                <td>Total SMS</td>
+                                <td>1000</td>
+                                <td>2000</td>
+                                <td>3000</td>
+                            </tr>
+                            <tr>
+                                <td>Total view</td>
+                                <td>1000</td>
+                                <td>2000</td>
+                                <td>3000</td>
+                            </tr>
+                            <tr>
+                                <td>Cost price (Yearly)</td>
+                                <td><strike>10000</strike></td>
+                                <td><strike>20000</strike></td>
+                                <td><strike>30000</strike></td>
+                            </tr>
+                            <tr>
+                                <td>Discount (Yearly)</td>
+                                <td>1000</td>
+                                <td>2000</td>
+                                <td>3000</td>
+                            </tr>
+                            <tr>
+                                <td>Offer price (Yearly)</td>
+                                <td>1000</td>
+                                <td>2000</td>
+                                <td>3000</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><button class='btn btn-primary'>add request</button></td>
+                                <td><button class='btn btn-primary'>add request</button></td>
+                                <td><button class='btn btn-primary'>add request</button></td>
+                            </tr>
+                        </tbody>
+                        </table>
+                        <div>
+                            <p>Payment Option</p>
+                            <p>*GST extra @ 18%</p>
+                            <p>**Terms and conditions applicable.</p>
+                            <p>***Bank draft should be sent in favour of shofer, #171..........</p>
+                        </div>
+                        <div>
+                            <p>For online and cash deposit</p>
+                            <p>Account Name:</p>
+                            <p>Bank Name:</p>
+                            <p>Account Number:</p>
+                            <p>Account type:</p>
+                            <p>IFSC code:</p>
+                        </div>        
+            </div>
+    </div> 
+</body>
+<script src="subscription.js"></script>
+</html>
